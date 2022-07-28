@@ -10,7 +10,14 @@ sidebar_position: 1
 
 ## Requirements
 
-- `neovim >= v0.7` is required.
+- `neovim >= v0.7.0` is required.
+- `npm`
+- `git`
+- `curl`
+- `wget`
+- `unzip`
+- `tar`
+- `gzip`
 
 you can install Abstract in two ways,
 - Manually
