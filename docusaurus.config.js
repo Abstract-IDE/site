@@ -134,10 +134,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/Abstract-IDE',
               },
+              {
+                label: 'Thanks to',
+                href: '/docs/thanks',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Abstract-IDE. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abstract-IDE.`,
       },
       prism: {
         theme: lightCodeTheme,

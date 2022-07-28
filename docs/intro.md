@@ -18,6 +18,7 @@ Abstract, The NeoVim configuration to achieve the power of Modern IDE.
 
 # why Abstract?
 
+- `It's fast, very fast` startup time is about 80ms (0.08 second)
 - `Project based config loading` ( you can define configs in `.__nvim__.lua` file in the root of your working project so that you don't have to change the config everytime you work on new/seperate project `similar to .editorconfig` )
 - `Your own custom configs and Mappings` (if you don't like Abstract's default config/mapping, you can change/override it on [override_defalut.lua](https://github.com/Abstract-IDE/Abstract/blob/main/lua/customs/override_defalut.lua) OR `~/.__nvim__.lua` file )
 - `Separate config file for each plugins` each plugin has their own config file which is defined in lua/plugins directory

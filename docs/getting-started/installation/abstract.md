@@ -10,14 +10,10 @@ sidebar_position: 1
 
 ## Requirements
 
-- `neovim >= v0.7.0` is required.
-- `npm`
-- `git`
-- `curl`
-- `wget`
-- `unzip`
-- `tar`
-- `gzip`
+- `neovim >= v0.7.0`
+- `npm` `git`
+- `wget` `curl`
+- `unzip` `tar` `gzip`
 
 you can install Abstract in two ways,
 - Manually
@@ -40,21 +36,22 @@ python setup.py
 ```
 
 
-:::tip NOTE
+:::danger NOTE
+
+it could take some time depending on you connection (it's going to install plugins and some Packages).
+So, be patient and follow the output throws by setup.py script<br/><br/>
 
 - pass `--delete 1` as an argument if you don't want to keep `.git`, `README.md`, `LICENSE` and `setup.py` files. Example:
 ```bash
 python setup.py --delete 1
 ```
-it could take some time depending on you connection (it's going to install plugins and some Languages Servers).
-So, be patient and follow the output throws by setup.py script<br/><br/>
-
 :::
 
 :::tip NOTE
 
-only some Language Servers are going to be installed. for more, install with [mason.nvim](https://github.com/williamboman/mason.nvim) <br/>
-for example: to install C/C++'s LS ``` :MasonInstall clangd ```
+we don't install any LSPs or Packages by defualt. You can install it with [mason.nvim](https://github.com/williamboman/mason.nvim) <br/>
+for example: to install C/C++'s LS ``` :MasonInstall clangd ``` <br/>
+more at [examples](/docs/category/examples)
 
 :::
 

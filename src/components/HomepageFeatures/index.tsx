@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/time_left.svg').default,
     description: (
       <>
-        Abstract is very well optimized and it only takes about 110ms to startup
+        Abstract is very well optimized and it only takes about 80ms to startup
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/configuration.svg').default,
     description: (
       <>
-        Abstract is haviely heavily pre-configured. It works out of the box.
+        Abstract is very heavily pre-configured. It works out of the box.
       </>
     ),
   },
