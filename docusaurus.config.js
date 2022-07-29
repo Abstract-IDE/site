@@ -32,7 +32,8 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      // '@docusaurus/preset-classic',
+      /* @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -55,9 +56,45 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      // local search
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      // // algolia search engine
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'E62GEFFQSE',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '9ed81812f37d9a21565ca06451c0ed32',
+      //   indexName: 'abstract-ide',
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+      //   // // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   // externalUrlRegex: 'external\\.com|domain\\.com',
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+      //   //... other Algolia params
+      //   placeholder: 'Search',
+      // },
+
       navbar: {
         title: 'Abstract',
         logo: {
@@ -94,6 +131,7 @@ const config = {
           },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
@@ -143,6 +181,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Abstract-IDE.`,
       },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
