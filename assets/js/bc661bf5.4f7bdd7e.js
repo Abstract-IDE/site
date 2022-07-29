@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[193],{5729:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});var c=s(7294),r=s(2164);function a(){return c.createElement(r.Z,{title:"Projects",description:"Projects by Abstract"},c.createElement("div",{className:"projects"},c.createElement("p",null,"TODO...projects")))}}}]);
