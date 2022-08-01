@@ -8,6 +8,10 @@ title: Mappings
 
 you can change `Leader key` in [init.lua](https://github.com/Abstract-IDE/Abstract/blob/main/init.lua) file
 
+:::important
+## tm  ->  To show all available mappings
+:::
+
 | Keys            | Functions                                                              |
 | ----------------|:---------------------------------------------------------------------- |
 | `;`             | leader key                                                             |
