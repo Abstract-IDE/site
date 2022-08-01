@@ -5,7 +5,7 @@ title: Django
 
 ## Packages
 we are going to install the following packages
-* `python-lsp-server` `html-lsp` `css-lsp`  - LSP
+* `pyright` `html-lsp` `css-lsp`  - LSP
 * `black` `djlint` `prettier`               - Formatter
 * `python` `html` `css`                     - Treesitter (Parser)
 
