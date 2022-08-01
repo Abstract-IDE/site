@@ -4,7 +4,7 @@
         <title>Abstract-IDE Blog</title>
         <link>https://abstract-ide.github.io/site/blog</link>
         <description>Abstract-IDE Blog</description>
-        <lastBuildDate>Fri, 29 Jul 2022 18:22:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Aug 2022 17:39:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[No blog post yet]]></title>
             <link>https://abstract-ide.github.io/site/blog/blog</link>
             <guid>/blog</guid>
-            <pubDate>Fri, 29 Jul 2022 18:22:19 GMT</pubDate>
+            <pubDate>Mon, 01 Aug 2022 17:39:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
