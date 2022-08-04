@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[92],{7325:e=>{e.exports=JSON.parse('{"label":"neovim","permalink":"/site/blog/tags/neovim","allTagsPath":"/site/blog/tags","count":1}')}}]);

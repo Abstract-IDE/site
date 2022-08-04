@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Neovim Configuration For A Beginner","permalink":"/site/blog/neovim-configuration-for-beginner"}]}')}}]);

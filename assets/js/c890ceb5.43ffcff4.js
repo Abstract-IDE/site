@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[9246],{2020:e=>{e.exports=JSON.parse('[{"label":"neovim","permalink":"/site/blog/tags/neovim","count":1},{"label":"beginner","permalink":"/site/blog/tags/beginner","count":1},{"label":"tutorial","permalink":"/site/blog/tags/tutorial","count":1}]')}}]);
