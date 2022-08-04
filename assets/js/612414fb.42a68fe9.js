@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[597],{2361:e=>{e.exports=JSON.parse('{"title":"Examples","slug":"/category/examples","permalink":"/site/docs/category/examples","navigation":{"previous":{"title":"Mappings","permalink":"/site/docs/mappings"},"next":{"title":"Frameworks","permalink":"/site/docs/category/frameworks"}}}')}}]);

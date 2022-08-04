@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[347],{3416:e=>{e.exports=JSON.parse('{"title":"Frameworks","slug":"/category/frameworks","permalink":"/site/docs/category/frameworks","navigation":{"previous":{"title":"Examples","permalink":"/site/docs/category/examples"},"next":{"title":"Django","permalink":"/site/docs/examples/frameworks/django"}}}')}}]);

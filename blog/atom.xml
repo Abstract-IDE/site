@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://abstract-ide.github.io/site/blog</id>
     <title>Abstract-IDE Blog</title>
-    <updated>2022-08-01T18:14:23.000Z</updated>
+    <updated>2022-08-04T09:45:58.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://abstract-ide.github.io/site/blog"/>
     <subtitle>Abstract-IDE Blog</subtitle>
@@ -11,6 +11,6 @@
         <title type="html"><![CDATA[No blog post yet]]></title>
         <id>/blog</id>
         <link href="https://abstract-ide.github.io/site/blog/blog"/>
-        <updated>2022-08-01T18:14:23.000Z</updated>
+        <updated>2022-08-04T09:45:58.000Z</updated>
     </entry>
 </feed>
