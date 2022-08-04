@@ -37,6 +37,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -44,6 +45,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 20,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

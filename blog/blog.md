@@ -1,2 +1,0 @@
-
-# No blog post yet
