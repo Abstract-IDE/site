@@ -11,6 +11,7 @@ sidebar_position: 1
 ## Requirements
 
 - `neovim >= v0.7.0`
+- [`A patched font`](https://www.nerdfonts.com/)
 - `npm` `git`
 - `wget` `curl`
 - `unzip` `tar` `gzip`

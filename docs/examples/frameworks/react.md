@@ -5,20 +5,22 @@ title: React
 
 # Packages
 we are going to install the following packages
-* `typescript-language-server` `html-lsp` `css-lsp`  - LSP
-* `prettier`                                         - Formatter
-* `javascript` `typescript` `tsx` `html` `css`       - Treesitter (Parser)
+* `typescript-language-server` `html-lsp` `css-lsp` `json-lsp`  - LSP
+* `prettier`                                                    - Formatter
+* `javascript` `typescript` `tsx` `html` `css` `scss` `json`    - Treesitter (Parser)
 
 
 # Installation
 
-```
-MasonInstall typescript-language-server html-lsp css-lsp
-```
-![MasonInstall](/img/docs/example/react/mason.png)
+:::tip
+when you one neovim and press`:` (colon) in normal mode, it's the command mode. Meaning you have to paste below command in that area
+:::
 
 ```
-TSInstall javascript typescript tsx html css
+MasonInstall typescript-language-server html-lsp css-lsp `json-lsp`
 ```
-![TSInstall](/img/docs/example/react/treesitter.png)
+
+```
+TSInstall javascript typescript tsx html css scss json
+```
 
