@@ -4,7 +4,7 @@ sidebar_position: 2
 
 
 
-# Project Stracture
+# Project Structure
 
 ```txt title="~/.config/nvim/"
 ├── extra/
